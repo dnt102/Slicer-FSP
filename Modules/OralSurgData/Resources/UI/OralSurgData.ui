@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OralSurgData</class>
+ <widget class="qMRMLWidget" name="OralSurgData">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>431</width>
+    <height>1008</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="homeButton">
+       <property name="maximumSize">
+        <size>
+         <width>65</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>home</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="dentimButton">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="registButton">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="virtprButton">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="genimplButton">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="grbutton">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="engbutton">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="widescreenButton">
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="custom1screenButton">
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="dscreenButton">
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="redcreenButton">
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="ctkCollapsibleButton" name="implantsCollapsibleButton">
+     <property name="text">
+      <string>IMPLANTS</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="1" column="0" colspan="2">
+       <widget class="qMRMLSubjectHierarchyTreeView" name="ImplantSubjectHierarchyTreeView">
+        <property name="levelFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="nodeTypes">
+         <stringlist notr="true">
+          <string>vtkMRMLModelNode</string>
+          <string>vtkMRMLTransformNode</string>
+          <string></string>
+         </stringlist>
+        </property>
+        <property name="hideChildNodeTypes">
+         <stringlist notr="true"/>
+        </property>
+        <property name="visibilityColumnVisible">
+         <bool>true</bool>
+        </property>
+        <property name="idColumnVisible">
+         <bool>false</bool>
+        </property>
+        <property name="pluginAllowList">
+         <stringlist notr="true"/>
+        </property>
+        <property name="pluginBlockList">
+         <stringlist notr="true"/>
+        </property>
+        <property name="includeItemAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="includeNodeAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="excludeItemAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="excludeNodeAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="updateimplants">
+        <property name="text">
+         <string>UPDATE</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="ctkCollapsibleButton" name="RestCollapsibleButton">
+     <property name="text">
+      <string>MODELS - FIDUCIALS - CURVES</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_4">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="updatedata">
+        <property name="text">
+         <string>UPDATE </string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="qMRMLSubjectHierarchyTreeView" name="Rest2SubjectHierarchyTreeView">
+        <property name="levelFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="nodeTypes">
+         <stringlist notr="true">
+          <string>vtkMRMLModelNode</string>
+          <string>vtkMRMLMarkupsFiducialNode</string>
+          <string>vtkMRMLMarkupsCurveNode</string>
+         </stringlist>
+        </property>
+        <property name="hideChildNodeTypes">
+         <stringlist notr="true"/>
+        </property>
+        <property name="idColumnVisible">
+         <bool>false</bool>
+        </property>
+        <property name="pluginAllowList">
+         <stringlist notr="true"/>
+        </property>
+        <property name="pluginBlockList">
+         <stringlist notr="true"/>
+        </property>
+        <property name="includeItemAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="includeNodeAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="excludeItemAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="excludeNodeAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="ctkCollapsibleButton" name="SegmentationCollapsibleButton">
+     <property name="text">
+      <string>SEGMENTATIONS</string>
+     </property>
+     <property name="contentsFrameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0" colspan="2">
+       <widget class="qMRMLSubjectHierarchyTreeView" name="SubjectHierarchyTreeView">
+        <property name="levelFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="nodeTypes">
+         <stringlist notr="true">
+          <string>vtkMRMLSegmentationNode</string>
+         </stringlist>
+        </property>
+        <property name="hideChildNodeTypes">
+         <stringlist notr="true"/>
+        </property>
+        <property name="idColumnVisible">
+         <bool>false</bool>
+        </property>
+        <property name="pluginAllowList">
+         <stringlist notr="true"/>
+        </property>
+        <property name="pluginBlockList">
+         <stringlist notr="true"/>
+        </property>
+        <property name="includeItemAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="includeNodeAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="excludeItemAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+        <property name="excludeNodeAttributeNamesFilter">
+         <stringlist notr="true"/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ctkCollapsibleButton</class>
+   <extends>QWidget</extends>
+   <header>ctkCollapsibleButton.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>qMRMLWidget</class>
+   <extends>QWidget</extends>
+   <header>qMRMLWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>qMRMLSubjectHierarchyTreeView</class>
+   <extends>QTreeView</extends>
+   <header>qMRMLSubjectHierarchyTreeView.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>OralSurgData</sender>
+   <signal>mrmlSceneChanged(vtkMRMLScene*)</signal>
+   <receiver>ImplantSubjectHierarchyTreeView</receiver>
+   <slot>setMRMLScene(vtkMRMLScene*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>162</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>OralSurgData</sender>
+   <signal>mrmlSceneChanged(vtkMRMLScene*)</signal>
+   <receiver>Rest2SubjectHierarchyTreeView</receiver>
+   <slot>setMRMLScene(vtkMRMLScene*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>496</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>736</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>OralSurgData</sender>
+   <signal>mrmlSceneChanged(vtkMRMLScene*)</signal>
+   <receiver>SubjectHierarchyTreeView</receiver>
+   <slot>setMRMLScene(vtkMRMLScene*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>503</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>848</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

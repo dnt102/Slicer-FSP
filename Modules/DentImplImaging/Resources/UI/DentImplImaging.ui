@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DentImplImaging</class>
+ <widget class="qMRMLWidget" name="DentImplImaging">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>464</width>
+    <height>993</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-408</y>
+        <width>418</width>
+        <height>2108</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="ctkCollapsibleButton" name="CollapsibleButton_curve">
+         <property name="text">
+          <string>CBCT processing</string>
+         </property>
+         <layout class="QFormLayout" name="formLayout_2">
+          <item row="2" column="0" colspan="2">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QPushButton" name="homeButton">
+              <property name="maximumSize">
+               <size>
+                <width>65</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Home</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="databutton">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="registButton">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="virtprButton">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="genimplButton">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="grbutton">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="engbutton">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="3" column="0" colspan="2">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QPushButton" name="widescreenButton">
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="custom1screenButton">
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="dscreenButton">
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="redcreenButton">
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="5" column="0">
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="6" column="0" colspan="2">
+           <widget class="ctkCollapsibleButton" name="dicomCollapsibleButton">
+            <property name="text">
+             <string>DICOM</string>
+            </property>
+            <property name="contentsFrameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <layout class="QFormLayout" name="formLayout_5">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="selectexamButton">
+               <property name="text">
+                <string>Select Exam</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QComboBox" name="dicomcomboBox"/>
+             </item>
+             <item row="2" column="0" colspan="2">
+              <widget class="QPushButton" name="dicomButton">
+               <property name="text">
+                <string>Dicom Metadata</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="7" column="0" colspan="2">
+           <layout class="QHBoxLayout" name="horizontalLayout_7"/>
+          </item>
+          <item row="8" column="0">
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLabel" name="patientnamelabel">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="0" colspan="2">
+           <widget class="ctkCollapsibleButton" name="exportCollapsibleButton">
+            <property name="text">
+             <string>Export Dental Segmentator Segments to Models</string>
+            </property>
+            <property name="contentsFrameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <layout class="QFormLayout" name="formLayout_6">
+             <item row="0" column="0" colspan="2">
+              <widget class="QPushButton" name="AImodelsCreateButton">
+               <property name="text">
+                <string>Export</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="11" column="0">
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="12" column="0" colspan="2">
+           <widget class="ctkCollapsibleButton" name="curveCollapsibleButton">
+            <property name="text">
+             <string>Create and Adjust Curves</string>
+            </property>
+            <property name="contentsFrameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <layout class="QFormLayout" name="formLayout_7">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>Create curve:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="qMRMLNodeComboBox" name="addcurveComboBox">
+               <property name="nodeTypes">
+                <stringlist notr="true">
+                 <string>vtkMRMLMarkupsCurveNode</string>
+                </stringlist>
+               </property>
+               <property name="hideChildNodeTypes">
+                <stringlist notr="true"/>
+               </property>
+               <property name="noneEnabled">
+                <bool>true</bool>
+               </property>
+               <property name="editEnabled">
+                <bool>true</bool>
+               </property>
+               <property name="renameEnabled">
+                <bool>true</bool>
+               </property>
+               <property name="interactionNodeSingletonTag">
+                <string notr="true"/>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>Resample curve:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QDoubleSpinBox" name="resampleSpinBox">
+               <property name="maximum">
+                <double>500.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>Select curve:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="qMRMLNodeComboBox" name="selectcurvecomboBox">
+               <property name="nodeTypes">
+                <stringlist notr="true">
+                 <string>vtkMRMLMarkupsCurveNode</string>
+                </stringlist>
+               </property>
+               <property name="hideChildNodeTypes">
+                <stringlist notr="true"/>
+               </property>
+               <property name="interactionNodeSingletonTag">
+                <string notr="true"/>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0" colspan="2">
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="13" column="0">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="14" column="0" colspan="2">
+           <widget class="ctkCollapsibleButton" name="expimpCollapsibleButton">
+            <property name="text">
+             <string>Adjust and Export/Import Slices</string>
+            </property>
+            <property name="contentsFrameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <layout class="QFormLayout" name="formLayout_8">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>Select Slice:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0" colspan="2">
+              <widget class="QSlider" name="Slider">
+               <property name="maximum">
+                <number>32</number>
+               </property>
+               <property name="pageStep">
+                <number>1</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="tickPosition">
+                <enum>QSlider::TicksBelow</enum>
+               </property>
+               <property name="tickInterval">
+                <number>1</number>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="rotationValueLabel">
+               <property name="text">
+                <string>Rotate Slice:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0" colspan="2">
+              <widget class="QSlider" name="rotationslider">
+               <property name="minimum">
+                <number>-50</number>
+               </property>
+               <property name="maximum">
+                <number>50</number>
+               </property>
+               <property name="pageStep">
+                <number>1</number>
+               </property>
+               <property name="sliderPosition">
+                <number>0</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="tickPosition">
+                <enum>QSlider::TicksBelow</enum>
+               </property>
+               <property name="tickInterval">
+                <number>1</number>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="axisX">
+                 <property name="text">
+                  <string>on X</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="axisY">
+                 <property name="text">
+                  <string>on Y</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="axisZ">
+                 <property name="text">
+                  <string>on Z</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="0">
+              <spacer name="horizontalSpacer_9">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="translationValueLabel">
+               <property name="text">
+                <string>Translate Slice:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0" colspan="2">
+              <widget class="QSlider" name="translationslider">
+               <property name="minimum">
+                <number>-50</number>
+               </property>
+               <property name="maximum">
+                <number>50</number>
+               </property>
+               <property name="pageStep">
+                <number>1</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="tickPosition">
+                <enum>QSlider::TicksBelow</enum>
+               </property>
+               <property name="tickInterval">
+                <number>1</number>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="0">
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <widget class="QCheckBox" name="translonX">
+                 <property name="text">
+                  <string>on X</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="translonY">
+                 <property name="text">
+                  <string>on Y</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="translonZ">
+                 <property name="text">
+                  <string>on Z</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="12" column="0">
+              <widget class="QLabel" name="label_16">
+               <property name="text">
+                <string>Implant/Lesion Location:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="1">
+              <widget class="QComboBox" name="locationcomboBox"/>
+             </item>
+             <item row="13" column="0" colspan="2">
+              <layout class="QHBoxLayout" name="horizontalLayout_9">
+               <item>
+                <widget class="QPushButton" name="exportlocButton">
+                 <property name="text">
+                  <string>Export Slice</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="importlocButton">
+                 <property name="text">
+                  <string>Import Slice</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="15" column="0">
+           <spacer name="horizontalSpacer_10">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="16" column="0" colspan="2">
+           <widget class="ctkCollapsibleButton" name="selectedCollapsibleButton">
+            <property name="text">
+             <string>Display and Export Selected Slices to png/pdf</string>
+            </property>
+            <property name="contentsFrameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <layout class="QFormLayout" name="formLayout_9">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>Slice Coords:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QComboBox" name="implantlocscomboBox"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>Slice for Coords:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QComboBox" name="customsliceview"/>
+             </item>
+             <item row="2" column="0" colspan="2">
+              <layout class="QHBoxLayout" name="horizontalLayout_8">
+               <item>
+                <widget class="QPushButton" name="customlayoutButton">
+                 <property name="text">
+                  <string> Selected Slices Layout</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="implreport">
+                 <property name="text">
+                  <string>Selected Slices png /pdf</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="17" column="0">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="20" column="0" colspan="2">
+           <widget class="ctkCollapsibleButton" name="modelcurveCollapsibleButton">
+            <property name="text">
+             <string>Models and Curves</string>
+            </property>
+            <property name="contentsFrameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <layout class="QFormLayout" name="formLayout_4">
+             <item row="0" column="0" colspan="2">
+              <widget class="qMRMLSubjectHierarchyTreeView" name="CurveSubjectHierarchyTreeView">
+               <property name="levelFilter">
+                <stringlist notr="true"/>
+               </property>
+               <property name="nodeTypes">
+                <stringlist notr="true">
+                 <string>vtkMRMLModelNode</string>
+                 <string>vtkMRMLMarkupsCurveNode</string>
+                </stringlist>
+               </property>
+               <property name="hideChildNodeTypes">
+                <stringlist notr="true"/>
+               </property>
+               <property name="idColumnVisible">
+                <bool>false</bool>
+               </property>
+               <property name="transformColumnVisible">
+                <bool>false</bool>
+               </property>
+               <property name="includeItemAttributeNamesFilter">
+                <stringlist notr="true"/>
+               </property>
+               <property name="includeNodeAttributeNamesFilter">
+                <stringlist notr="true"/>
+               </property>
+               <property name="excludeItemAttributeNamesFilter">
+                <stringlist notr="true"/>
+               </property>
+               <property name="excludeNodeAttributeNamesFilter">
+                <stringlist notr="true"/>
+               </property>
+               <attribute name="headerVisible">
+                <bool>true</bool>
+               </attribute>
+              </widget>
+             </item>
+             <item row="1" column="0" colspan="2">
+              <widget class="QPushButton" name="modelcurvetreeButton">
+               <property name="text">
+                <string>Update</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="22" column="0">
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="23" column="0" colspan="2">
+           <widget class="qMRMLCollapsibleButton" name="statCollapsibleButton">
+            <property name="text">
+             <string>Segments Computations</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_3">
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>Select Segmantation:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="qMRMLNodeComboBox" name="segmentationBox">
+               <property name="nodeTypes">
+                <stringlist notr="true">
+                 <string>vtkMRMLSegmentationNode</string>
+                </stringlist>
+               </property>
+               <property name="hideChildNodeTypes">
+                <stringlist notr="true"/>
+               </property>
+               <property name="noneEnabled">
+                <bool>true</bool>
+               </property>
+               <property name="addEnabled">
+                <bool>false</bool>
+               </property>
+               <property name="removeEnabled">
+                <bool>false</bool>
+               </property>
+               <property name="interactionNodeSingletonTag">
+                <string notr="true"/>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_6">
+               <property name="text">
+                <string>Select Segment:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QComboBox" name="segmentBox"/>
+             </item>
+             <item row="4" column="0" colspan="2">
+              <widget class="QPushButton" name="getsegmButton">
+               <property name="text">
+                <string>Compute</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0" colspan="2">
+              <widget class="QListWidget" name="statList"/>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string>Select Volume:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="qMRMLNodeComboBox" name="volumeBox">
+               <property name="nodeTypes">
+                <stringlist notr="true">
+                 <string>vtkMRMLScalarVolumeNode</string>
+                </stringlist>
+               </property>
+               <property name="hideChildNodeTypes">
+                <stringlist notr="true"/>
+               </property>
+               <property name="noneEnabled">
+                <bool>true</bool>
+               </property>
+               <property name="addEnabled">
+                <bool>false</bool>
+               </property>
+               <property name="removeEnabled">
+                <bool>false</bool>
+               </property>
+               <property name="interactionNodeSingletonTag">
+                <string notr="true"/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="24" column="0">
+           <widget class="QLabel" name="volumeDimensionsLabel">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="24" column="1">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="29" column="0">
+           <widget class="QLabel" name="voxelSpacingLabel">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="63" column="0">
+           <widget class="Line" name="line_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="70" column="0">
+           <widget class="Line" name="line_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ctkCollapsibleButton</class>
+   <extends>QWidget</extends>
+   <header>ctkCollapsibleButton.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>qMRMLCollapsibleButton</class>
+   <extends>ctkCollapsibleButton</extends>
+   <header>qMRMLCollapsibleButton.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>qMRMLNodeComboBox</class>
+   <extends>QWidget</extends>
+   <header>qMRMLNodeComboBox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>qMRMLWidget</class>
+   <extends>QWidget</extends>
+   <header>qMRMLWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>qMRMLSubjectHierarchyTreeView</class>
+   <extends>QTreeView</extends>
+   <header>qMRMLSubjectHierarchyTreeView.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>DentImplImaging</sender>
+   <signal>mrmlSceneChanged(vtkMRMLScene*)</signal>
+   <receiver>CurveSubjectHierarchyTreeView</receiver>
+   <slot>setMRMLScene(vtkMRMLScene*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>173</x>
+     <y>499</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>173</x>
+     <y>933</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>DentImplImaging</sender>
+   <signal>mrmlSceneChanged(vtkMRMLScene*)</signal>
+   <receiver>selectcurvecomboBox</receiver>
+   <slot>setMRMLScene(vtkMRMLScene*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>331</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>238</x>
+     <y>112</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>DentImplImaging</sender>
+   <signal>mrmlSceneChanged(vtkMRMLScene*)</signal>
+   <receiver>segmentationBox</receiver>
+   <slot>setMRMLScene(vtkMRMLScene*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>253</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>91</x>
+     <y>709</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>DentImplImaging</sender>
+   <signal>mrmlSceneChanged(vtkMRMLScene*)</signal>
+   <receiver>addcurveComboBox</receiver>
+   <slot>setMRMLScene(vtkMRMLScene*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>331</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>238</x>
+     <y>83</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>DentImplImaging</sender>
+   <signal>mrmlSceneChanged(vtkMRMLScene*)</signal>
+   <receiver>volumeBox</receiver>
+   <slot>setMRMLScene(vtkMRMLScene*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>225</x>
+     <y>519</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>248</x>
+     <y>821</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

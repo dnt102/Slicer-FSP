@@ -1,0 +1,42 @@
+#-----------------------------------------------------------------------------
+set(MODULE_NAME OralSurgModuleHome)
+
+#-----------------------------------------------------------------------------
+set(MODULE_PYTHON_SCRIPTS
+  ${MODULE_NAME}.py
+  )
+
+set(MODULE_PYTHON_RESOURCES
+  Resources/Icons/${MODULE_NAME}.png
+  Resources/Icons/ho3d.png
+  Resources/Icons/hocs.png  
+  Resources/Icons/hoDentImplIm.png  
+  Resources/Icons/hoGenIImplCr.png
+  Resources/Icons/hoOSData.png
+  Resources/Icons/hored.png
+  Resources/Icons/hoRegisterMod.png
+  Resources/Icons/hoVirtualPr.png
+  Resources/Icons/hows.png
+  Resources/Icons/hoDentSegm.png
+  Resources/Icons/hoFastModAlign.png
+  Resources/UI/${MODULE_NAME}.ui
+  )
+
+#-----------------------------------------------------------------------------
+slicerMacroBuildScriptedModule(
+  NAME ${MODULE_NAME}
+  SCRIPTS ${MODULE_PYTHON_SCRIPTS}
+  RESOURCES ${MODULE_PYTHON_RESOURCES}
+  WITH_GENERIC_TESTS
+  )
+
+#-----------------------------------------------------------------------------
+if(BUILD_TESTING)
+
+  # Register the unittest subclass in the main script as a ctest.
+  # Note that the test will also be available at runtime.
+  slicer_add_python_unittest(SCRIPT ${MODULE_NAME}.py)
+
+  # Additional build-time testing
+  add_subdirectory(Testing)
+endif()
