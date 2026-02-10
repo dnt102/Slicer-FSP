@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use Slicer-FSP in your research, please cite it as below."
+title: "Slicer-FSP: Free Surgical Planner"
+version: "1.0.0"
+date-released: "2026-02-10"
+authors:
+  - family-names: "T."
+    given-names: "D."
+    affiliation: "Free Surgical Planner Project"
+    orcid: "https://orcid.org/0009-0000-6786-6624"
+repository-code: "https://github.com/dnt102/Slicer-FSP"
+url: "https://github.com/dnt102/Slicer-FSP"
+abstract: >
+  Slicer-FSP (Free Surgical Planner) is an open-source, fully integrated workflow
+  for oral and maxillofacial implant planning. It provides modules for CBCT and
+  intraoral scan preparation, AI-based dental segmentation, registration,
+  implant planning, virtual prosthetics, and surgical data export. The project
+  includes custom modules, modified Slicer source files, and a packaged executable
+  for immediate clinical and research use.
+keywords:
+  - 3D Slicer
+  - implant planning
+  - oral surgery
+  - dental segmentation
+  - virtual prosthetics
+  - surgical planning
+  - open-source software
+license: "Apache-2.0"
