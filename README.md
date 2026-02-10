@@ -1,5 +1,7 @@
 Slicer‑FSP — Free Surgical Planner
 
+https://doi.org/10.5281/zenodo.18596636
+
 Overview
 
 Slicer‑FSP (Free Surgical Planner) is an open‑source, fully integrated workflow for oral and maxillofacial implant planning.
@@ -22,7 +24,8 @@ The project is built on 3D Slicer and includes custom modules, modified Slicer s
 <hr>
 
 Option A — Download the Executable (Recommended)
-👉 <b>Download Slicer‑FSP v1.0.0</b>
+
+👉 <b>Download Slicer‑FSP v1.0.1 (github.com)</b>
 
 This version includes:
 
@@ -57,12 +60,12 @@ SlicerMorph
 SurfaceWrapSolidify
 
 3. Install Python dependencies
-
+ 
 Slicer‑FSP requires two additional Python packages:
 
-pyacvd (mesh clustering / remeshing)
+pyacvd
 
-fpdf (PDF generation for surgical reports)
+fpdf
 
 Install them inside Slicer’s Python environment:
 
@@ -87,32 +90,15 @@ Application Layout
 <img src="docs/images/app-home.png" width="650">
 </p>
 
-This screen also provides a reminder of the required Slicer extensions.
-
-For full workflow demonstrations, refer to the video tutorials below.
-
 <hr>
 
 Video Tutorials
+
 YouTube Channel
-👉 https://www.youtube.com/@opensourceguided4719 
+https://www.youtube.com/@opensourceguided4719 (youtube.com)
 
 Tutorial Website
-👉 https://freesurgplan.edu.gr/ 
-
-The videos include:
-
-CBCT + IOS preparation
-
-Registration workflow
-
-Implant planning
-
-Virtual prosthetics
-
-Exporting surgical data
-
-Full case demonstrations
+https://freesurgplan.edu.gr/ (freesurgplan.edu.gr)
 
 <hr>
 
@@ -137,29 +123,36 @@ Additional helper modules
 Modified Slicer Source
 
 The repository includes a folder with modified Slicer source files used to build the custom Slicer‑FSP executable.
-These modifications include UI adjustments, branding, and integration hooks for the modules.
 
 <hr>
 
 Citation
+
 If you use Slicer‑FSP in academic work, please cite:
 
-D. T., Free Surgical Planner (Slicer‑FSP), 2026.  
-GitHub Repository: https://github.com/dnt102/Slicer-FSP
+Code
 
-A Zenodo DOI will be added after the first release is archived.
+D. T., Slicer‑FSP: Free Surgical Planner, 2026.
+
+DOI: https://doi.org/10.5281/zenodo.18596636
+
+This DOI is the Concept DOI, which always points to the latest version of the software.
 
 <hr>
 
 License
+
 This project is released under the Apache 2.0 License, consistent with 3D Slicer.
 
 <hr>
+
 Slicer‑FSP — Ελεύθερος Χειρουργικός Σχεδιασμός
 
-Επισκόπηση
-Το Slicer‑FSP (Free Surgical Planner) είναι ένα ανοιχτού κώδικα, πλήρως ολοκληρωμένο περιβάλλον για τον σχεδιασμό οδοντικών και γναθοπροσωπικών εμφυτευμάτων.
+https://doi.org/10.5281/zenodo.18596636
 
+Επισκόπηση
+
+Το Slicer‑FSP (Free Surgical Planner) είναι ένα ανοιχτού κώδικα, πλήρως ολοκληρωμένο περιβάλλον για τον σχεδιασμό οδοντικών και γναθοπροσωπικών εμφυτευμάτων.
 Προσφέρει ενιαίο workflow για:
 
 Προετοιμασία CBCT και ενδοστοματικών σαρώσεων
@@ -177,7 +170,8 @@ Registration και ευθυγράμμιση
 <hr>
 
 Επιλογή Α — Λήψη Εκτελέσιμου (Συνιστάται)
-👉 <b>Λήψη Slicer‑FSP v1.0.0</b>
+
+👉 <b>Λήψη Slicer‑FSP v1.0.1 (github.com)</b>
 
 Περιλαμβάνει:
 
@@ -196,6 +190,7 @@ Registration και ευθυγράμμιση
 Επιλογή Β — Χειροκίνητη Εγκατάσταση (Για προχωρημένους)
 
 1. Εγκατάσταση 3D Slicer
+
 Εγκαταστήστε την τελευταία σταθερή έκδοση του 3D Slicer από:
 https://www.slicer.org/
 
@@ -235,40 +230,21 @@ slicer.util.pip_install("fpdf")
 <hr>
 
 Layout Εφαρμογής
-
 <h3 align="center">Αρχικό Layout</h3>
 
 <p align="center">
 <img src="docs/images/app-home.png" width="650">
 </p>
 
-Η οθόνη αυτή υπενθυμίζει και τα απαραίτητα extensions.
-
-Για πλήρεις οδηγίες χρήσης, δείτε τα βίντεο παρακάτω.
-
 <hr>
 
 Βίντεο Οδηγιών
 
 YouTube Channel
-👉 https://www.youtube.com/@opensourceguided4719 
+https://www.youtube.com/@opensourceguided4719 (youtube.com)
 
 Ιστότοπος Εκπαιδευτικού Υλικού
-👉 https://freesurgplan.edu.gr/ 
-
-Τα βίντεο περιλαμβάνουν:
-
-Προετοιμασία CBCT και IOS
-
-Registration
-
-Σχεδιασμό εμφυτευμάτων
-
-Εικονική προσθετική
-
-Εξαγωγή χειρουργικών δεδομένων
-
-Πλήρη παραδείγματα περιστατικών
+https://freesurgplan.edu.gr/ (freesurgplan.edu.gr)
 
 <hr>
 
@@ -291,18 +267,24 @@ GenericImplCreator
 <hr>
 
 Τροποποιημένος Κώδικας Slicer
+
 Το repository περιλαμβάνει φάκελο με τροποποιημένα αρχεία πηγαίου κώδικα του Slicer που χρησιμοποιήθηκαν για την κατασκευή του custom εκτελέσιμου Slicer‑FSP.
 
 <hr>
 
+Αναφορά
+
 Αν χρησιμοποιήσετε το Slicer‑FSP σε επιστημονική εργασία, παρακαλώ αναφέρετε:
 
-D. T., Free Surgical Planner (Slicer‑FSP), 2026.  
-GitHub Repository: https://github.com/dnt102/Slicer-FSP
+Code
+D. T., Slicer‑FSP: Ελεύθερος Χειρουργικός Σχεδιασμός, 2026.
 
-Zenodo DOI θα προστεθεί μετά την αρχειοθέτηση του release.
+DOI: https://doi.org/10.5281/zenodo.18596636
+
+Το DOI αυτό είναι το Concept DOI, το οποίο παραμένει σταθερό και οδηγεί πάντα στην τελευταία έκδοση του λογισμικού.
 
 <hr>
 
 Άδεια Χρήσης
+
 Το έργο διατίθεται υπό την Apache 2.0 License, όπως και το 3D Slicer.
