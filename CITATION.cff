@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+otscff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below."
 title: "Slicer-FSP: Free Surgical Planner"
 abstract: "Slicer-FSP is an open-source, fully integrated workflow for oral and maxillofacial implant planning, built on 3D Slicer and distributed with custom modules, modified Slicer source files, and a packaged executable."
@@ -26,7 +26,7 @@ preferred-citation:
   type: software
   title: "Slicer-FSP: Free Surgical Planner"
   authors:
-    - family-names: "T."
+    - family-names: "Trikeriotis"
       given-names: "D."
   year: 2026
   doi: "10.5281/zenodo.18596636"
