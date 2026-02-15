@@ -4,7 +4,7 @@ https://doi.org/10.5281/zenodo.18596636
 
 Overview
 
-Slicer‑FSP (Free Surgical Planner) is an open‑source, fully integrated workflow for oral and maxillofacial implant planning.
+Slicer‑FSP (Free Surgical Planner) is an open‑source, fully integrated workflow for oral and maxillofacial surgery planning.
 It provides a unified environment for:
 
 CBCT and intraoral scan preparation
