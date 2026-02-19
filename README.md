@@ -132,7 +132,7 @@ If you use Slicer‑FSP in academic work, please cite:
 
 Code
 
-D. T., Slicer‑FSP: Free Surgical Planner, 2026.
+D. Trikeriotis, Slicer‑FSP: Free Surgical Planner, 2026.
 
 DOI: https://doi.org/10.5281/zenodo.18596636
 
@@ -277,7 +277,7 @@ GenericImplCreator
 Αν χρησιμοποιήσετε το Slicer‑FSP σε επιστημονική εργασία, παρακαλώ αναφέρετε:
 
 Code
-D. T., Slicer‑FSP: Ελεύθερος Χειρουργικός Σχεδιασμός, 2026.
+D. Trikeriotis, Slicer‑FSP: Ελεύθερος Χειρουργικός Σχεδιασμός, 2026.
 
 DOI: https://doi.org/10.5281/zenodo.18596636
 
