@@ -4,7 +4,7 @@ title: "Slicer-FSP: Free Surgical Planner"
 abstract: "Slicer-FSP is an open-source, fully integrated workflow for oral and maxillofacial implant planning, built on 3D Slicer and distributed with custom modules, modified Slicer source files, and a packaged executable."
 authors:
   - family-names: "Trikeriotis"
-    given-names: "D."
+    given-names: "Dimitris"
     affiliation: "Free Surgical Planner Project"
     orcid: ""
 version: "1.0.1"
@@ -27,6 +27,6 @@ preferred-citation:
   title: "Slicer-FSP: Free Surgical Planner"
   authors:
     - family-names: "Trikeriotis"
-      given-names: "D."
+      given-names: "Dimitris"
   year: 2026
   doi: "10.5281/zenodo.18596636"
